@@ -1,0 +1,74 @@
+article {
+  background: rgb(var(--rosa-300)); /* Fondo rosa claro */
+  width: 100%; /* Ancho del artículo al 100% */
+  max-width: 500px; /* Ancho máximo del artículo de 500px */
+  margin: 0 auto; /* Centrar el artículo horizontalmente */
+  padding: 20px; /* Espaciado interno de 20px */
+  border-radius: 5px; /* Borde redondeado de 5px */
+}
+
+.subtitulo {
+  font-weight: 500; /* Grosor de la fuente 500 */
+  text-align: center; /* Alinear el texto al centro */
+}
+
+.form {
+  display: flex; /* Mostrar los elementos en línea */
+  gap: 10px; /* Espacio entre los elementos de 10px */
+  width: 100%; /* Ancho del formulario al 100% */
+  flex-direction: column; /* Dirección de los elementos en columna */
+  justify-content: center; /* Centrar los elementos verticalmente */
+}
+
+.form-input {
+  background: rgb(var(--rosa-200)); /* Fondo rosa más claro */
+  color: inherit; /* Color de texto heredado */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Borde redondeado de 5px */
+  padding: 10px; /* Espaciado interno de 10px */
+}
+
+.form-input[type="submit"] {
+  background: rgb(var(--rosa-400)); /* Fondo rosa medio */
+  font-weight: 500; /* Grosor de la fuente 500 */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  transition: all 0.3s ease-in-out; /* Transición suave de 0.3s */
+}
+
+.form-input[type="submit"]:hover {
+  background: rgb(var(--rosa-200)); /* Fondo rosa más claro */
+}
+
+.mensaje {
+  color: rgb(var(--rosa-950)); /* Color de texto rosa oscuro */
+  font-size: 0.9rem; /* Tamaño de fuente de 0.9rem */
+  margin-top: 10px; /* Margen superior de 10px */
+  text-align: center; /* Alinear el texto al centro */
+}
+
+.mensaje a {
+  color: rgb(var(--rosa-700)); /* Color de enlace rosa medio */
+}
+
+.contenedor-btn {
+  display: flex; /* Mostrar los elementos en línea */
+  justify-content: center; /* Centrar los elementos horizontalmente */
+  margin-top: 20px; /* Margen superior de 20px */
+}
+
+.contenedor-btn a {
+  background: rgb(var(--rosa-700)); /* Fondo rosa medio */
+  color: rgb(var(--rosa-100)); /* Color de texto rosa claro */
+  padding: 10px 20px; /* Espaciado interno de 10px en vertical y 20px en horizontal */
+  border-radius: 5px; /* Borde redondeado de 5px */
+  text-decoration: none; /* Sin decoración de texto */
+  transition: all 0.3s ease-in-out; /* Transición suave de 0.3s */
+}
+
+.contenedor-btn a:hover {
+  background: rgb(var(--rosa-600)); /* Fondo rosa más oscuro */
+}
+
+.error {
+  text-align: center; /* Alinear el texto al centro */
+}

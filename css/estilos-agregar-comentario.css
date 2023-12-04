@@ -1,0 +1,79 @@
+/* Estilos para el formulario */
+.formulario {
+  background: rgb(var(--rosa-300)); /* Fondo del formulario */
+  display: flex;
+  gap: 10px; /* Espacio entre elementos del formulario */
+  flex-direction: column; /* Dirección de los elementos del formulario */
+  justify-content: center; /* Alineación vertical del contenido del formulario */
+  width: 100%; /* Ancho del formulario */
+  max-width: 500px; /* Ancho máximo del formulario */
+  border-radius: 10px; /* Radio de los bordes del formulario */
+  padding: 20px; /* Espaciado interno del formulario */
+}
+
+/* Estilos para el título del formulario */
+.titulo {
+  text-align: center; /* Alineación del texto del título */
+  margin-bottom: 1.5rem; /* Margen inferior del título */
+}
+
+/* Estilos para las etiquetas del formulario */
+.label {
+  font-size: 1.2rem; /* Tamaño de fuente de las etiquetas */
+  font-weight: 600; /* Grosor de fuente de las etiquetas */
+  margin-bottom: 0.5rem; /* Margen inferior de las etiquetas */
+}
+
+/* Estilos para los campos de entrada del formulario */
+.input {
+  padding: 0.5rem; /* Espaciado interno de los campos de entrada */
+  border-radius: 5px; /* Radio de los bordes de los campos de entrada */
+  border: 1px solid rgb(var(--rosa-500)); /* Borde de los campos de entrada */
+  outline: none; /* Eliminar el contorno al seleccionar un campo de entrada */
+  font-size: 1rem; /* Tamaño de fuente de los campos de entrada */
+}
+
+/* Estilos específicos para el campo de entrada de tipo textarea */
+textarea.input {
+  resize: none; /* Deshabilitar la redimensión del textarea */
+  height: 100px; /* Altura del textarea */
+}
+
+/* Estilos para el botón del formulario */
+.btn {
+  cursor: pointer; /* Cambiar el cursor al pasar por encima del botón */
+  text-decoration: none; /* Eliminar la decoración de texto del botón */
+  background: none; /* Fondo transparente del botón */
+  color: rgb(var(--rosa-950)); /* Color del texto del botón */
+  border: 1px solid rgb(var(--rosa-500)); /* Borde del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 10px; /* Radio de los bordes del botón */
+  margin: 10px 0; /* Margen superior e inferior del botón */
+  transition: all 0.3s ease; /* Transición suave al pasar por encima del botón */
+}
+
+/* Estilos para el botón del formulario al pasar por encima */
+.btn:hover {
+  background: rgb(var(--rosa-500)); /* Fondo del botón al pasar por encima */
+  color: rgb(
+    var(--rosa-100)
+  ); /* Color del texto del botón al pasar por encima */
+}
+
+/* Estilos para el artículo */
+article {
+  display: flex; /* Mostrar los elementos del artículo en línea */
+  flex-direction: column; /* Dirección de los elementos del artículo */
+  gap: 1rem; /* Espacio entre elementos del artículo */
+  align-items: center; /* Alineación horizontal del contenido del artículo */
+  justify-content: center; /* Alineación vertical del contenido del artículo */
+}
+
+/* Estilos para el contenedor de botones */
+.contenedor-btn {
+  display: flex; /* Mostrar los botones en línea */
+  flex-wrap: wrap; /* Permitir el ajuste de los botones en varias líneas */
+  justify-content: center; /* Alineación horizontal del contenido del contenedor de botones */
+  align-items: center; /* Alineación vertical del contenido del contenedor de botones */
+  gap: 1rem; /* Espacio entre botones */
+}

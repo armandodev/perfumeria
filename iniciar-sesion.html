@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Iniciar sesión</title>
+
+    <!-- Archivos de estilos -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <!-- Estilos globales -->
+    <link rel="stylesheet" href="./css/estilos-menu.css" />
+    <!-- Estilos del menú -->
+    <link rel="stylesheet" href="./css/estilos-pie-pagina.css" />
+    <!-- Estilos del pie de página -->
+    <link rel="stylesheet" href="./css/estilos-sesion.css" />
+    <!-- Estilos de la página de inicio de sesión -->
+  </head>
+  <body>
+    <header id="cabecera">
+      <div class="contenido">
+        <h1>Chick</h1>
+
+        <!-- Menú de navegación -->
+        <nav class="navegacion">
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="menu-link" href="./">Inicio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="dama.php">Dama</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="caballero.php">Caballero</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="comentarios.php">Comentarios</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="principal" class="contenido">
+      <article id="iniciar-sesion">
+        <h2 class="subtitulo">Iniciar sesión</h2>
+        <form class="form" action="iniciar-sesion.php" method="post">
+          <label for="usuario">Usuario</label>
+          <input
+            class="form-input"
+            type="text"
+            name="usuario"
+            id="usuario"
+            placeholder="Usuario"
+            required
+          />
+          <label for="contrasena">Contraseña</label>
+          <input
+            class="form-input"
+            type="password"
+            name="contrasenia"
+            id="contrasenia"
+            placeholder="Contraseña"
+            required
+          />
+
+          <input class="form-input" type="submit" value="Iniciar sesión" />
+        </form>
+
+        <p class="mensaje">
+          ¿No tienes una cuenta? <a href="registrarse.html">Regístrate</a>
+        </p>
+      </article>
+    </main>
+
+    <footer id="pie-pagina">
+      <p class="derechos">
+        <small>&copy; 2023 - Perfumería Chick</small>
+      </p>
+    </footer>
+  </body>
+</html>

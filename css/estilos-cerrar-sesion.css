@@ -1,0 +1,38 @@
+article {
+  display: flex; /* Se utiliza para establecer el elemento article como un contenedor flexible */
+  flex-direction: column; /* Se utiliza para establecer la dirección de los elementos hijos en columnas */
+  gap: 1rem; /* Se utiliza para establecer el espacio entre los elementos hijos */
+  align-items: center; /* Se utiliza para alinear los elementos hijos horizontalmente en el centro */
+  justify-content: center; /* Se utiliza para alinear los elementos hijos verticalmente en el centro */
+}
+
+.contenedor-btn {
+  display: flex; /* Se utiliza para establecer el elemento contenedor-btn como un contenedor flexible */
+  flex-wrap: wrap; /* Se utiliza para permitir que los elementos hijos se envuelvan en varias líneas si no caben en una sola línea */
+  justify-content: center; /* Se utiliza para alinear los elementos hijos horizontalmente en el centro */
+  align-items: center; /* Se utiliza para alinear los elementos hijos verticalmente en el centro */
+  gap: 1rem; /* Se utiliza para establecer el espacio entre los elementos hijos */
+}
+
+a.button {
+  display: inline-flex; /* Se utiliza para establecer el elemento a.button como un contenedor flexible en línea */
+  align-items: center; /* Se utiliza para alinear los elementos hijos horizontalmente en el centro */
+  justify-content: center; /* Se utiliza para alinear los elementos hijos verticalmente en el centro */
+  border: 2px solid rgb(var(--rosa-950)); /* Se utiliza para establecer un borde de 2 píxeles sólido con el color definido por la variable --rosa-950 */
+  color: rgb(
+    var(--rosa-950)
+  ); /* Se utiliza para establecer el color del texto con el color definido por la variable --rosa-950 */
+  text-decoration: none; /* Se utiliza para eliminar la decoración de subrayado del texto */
+  padding: 10px 20px; /* Se utiliza para establecer el relleno de 10 píxeles en la parte superior e inferior y 20 píxeles en los lados izquierdo y derecho */
+  border-radius: 5px; /* Se utiliza para establecer un borde redondeado de 5 píxeles */
+  transition: all 0.3s ease-in-out; /* Se utiliza para establecer una transición suave de 0.3 segundos para todas las propiedades */
+}
+
+a.button:hover {
+  background-color: rgb(
+    var(--rosa-950)
+  ); /* Se utiliza para establecer el color de fondo con el color definido por la variable --rosa-950 al pasar el cursor sobre el elemento */
+  color: rgb(
+    var(--rosa-100)
+  ); /* Se utiliza para establecer el color del texto con el color definido por la variable --rosa-100 al pasar el cursor sobre el elemento */
+}

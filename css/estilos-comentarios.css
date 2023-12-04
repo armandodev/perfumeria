@@ -1,0 +1,57 @@
+.contenido#principal article {
+  width: 100%; /* Se establece el ancho del artículo al 100% */
+}
+
+.contenido#principal article h2,
+.error {
+  text-align: center; /* Se alinea el texto al centro */
+  margin-bottom: 1.5rem; /* Se agrega un margen inferior de 1.5rem */
+}
+
+.comentarios {
+  background: rgb(
+    var(--rosa-300)
+  ); /* Se establece el fondo con un color rosa */
+  display: flex; /* Se utiliza el modelo de caja flexible */
+  flex-direction: column; /* Se establece la dirección de los elementos como columna */
+  justify-content: center; /* Se centra verticalmente los elementos */
+  width: 100%; /* Se establece el ancho al 100% */
+  border-radius: 10px; /* Se agrega un borde redondeado de 10px */
+}
+
+.comentario {
+  padding: 10px; /* Se agrega un relleno interno de 10px */
+  border-bottom: 1px solid rgb(var(--rosa-200)); /* Se agrega un borde inferior de 1px sólido con un color rosa */
+  line-height: 1.5; /* Se establece la altura de línea a 1.5 */
+}
+
+.usuario {
+  font-size: 1.2rem; /* Se establece el tamaño de fuente a 1.2rem */
+  font-weight: bold; /* Se establece el peso de fuente en negrita */
+  opacity: 0.8; /* Se establece la opacidad a 0.8 */
+}
+
+.contenido-comentario {
+  font-size: 1.1rem; /* Se establece el tamaño de fuente a 1.1rem */
+  margin-top: 10px; /* Se agrega un margen superior de 10px */
+}
+
+.btn {
+  display: inline-flex; /* Se muestra como un elemento en línea con modelo de caja flexible */
+  text-decoration: none; /* Se quita la decoración de texto */
+  color: rgb(
+    var(--rosa-950)
+  ); /* Se establece el color de texto con un color rosa */
+  border: 2px solid rgb(var(--rosa-950)); /* Se agrega un borde de 2px sólido con un color rosa */
+  padding: 10px 20px; /* Se agrega un relleno interno de 10px en la parte superior e inferior y 20px en los lados izquierdo y derecho */
+  border-radius: 10px; /* Se agrega un borde redondeado de 10px */
+  margin: 10px 0; /* Se agrega un margen superior e inferior de 10px y margen izquierdo y derecho de 0 */
+  transition: all 0.3s ease; /* Se agrega una transición de 0.3 segundos con efecto de suavizado */
+}
+
+.btn:hover {
+  background: rgb(var(--rosa-950)); /* Se cambia el fondo al color rosa */
+  color: rgb(
+    var(--rosa-100)
+  ); /* Se cambia el color de texto al color rosa claro */
+}

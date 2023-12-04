@@ -1,0 +1,88 @@
+.contenedor h2 {
+  text-align: center; /* Alineación del texto al centro */
+  margin-bottom: 1rem; /* Margen inferior de 1rem */
+}
+
+.perfumes {
+  display: flex; /* Mostrar como flexbox */
+  flex-direction: column; /* Dirección de los elementos en columna */
+  align-items: center; /* Alinear elementos al centro horizontalmente */
+  width: 100%; /* Ancho del 100% */
+}
+
+.perfume {
+  display: flex; /* Mostrar como flexbox */
+  flex-wrap: wrap; /* Envolver elementos en varias líneas */
+  gap: 2rem; /* Espacio entre los elementos */
+  justify-content: space-between; /* Justificar elementos alrededor */
+  align-items: center; /* Alinear elementos al centro horizontalmente */
+  width: 100%; /* Ancho del 100% */
+  padding: 1rem; /* Espaciado interno de 1rem */
+  border-bottom: 1px solid #ccc; /* Borde inferior de 1px sólido en color #ccc */
+}
+
+.perfume-info {
+  display: flex; /* Mostrar como flexbox */
+  flex-wrap: wrap; /* Envolver elementos en varias líneas */
+  align-items: center; /* Alinear elementos al centro horizontalmente */
+  gap: 1rem; /* Espacio entre los elementos */
+}
+
+.perfume-nombre {
+  font-weight: bold; /* Fuente en negrita */
+}
+
+.perfume-activo.true {
+  color: #080; /* Color verde (#080) */
+}
+
+.perfume-activo.false {
+  color: #800; /* Color rojo oscuro (#800) */
+}
+
+.perfume-acciones {
+  display: flex; /* Mostrar como flexbox */
+  gap: 1rem; /* Espacio entre los elementos */
+}
+
+a.perfume-accion {
+  padding: 0.5rem 1rem; /* Espaciado interno de 0.5rem en vertical y 1rem en horizontal */
+  border-radius: 0.25rem; /* Radio de borde de 0.25rem */
+  text-decoration: none; /* Sin decoración de texto */
+}
+
+.contenedor-btn {
+  display: flex; /* Mostrar como flexbox */
+  justify-content: center; /* Justificar elementos al centro horizontalmente */
+  margin-top: 1rem; /* Margen superior de 1rem */
+}
+
+.button {
+  padding: 0.5rem 1rem; /* Espaciado interno de 0.5rem en vertical y 1rem en horizontal */
+  border-radius: 0.25rem; /* Radio de borde de 0.25rem */
+  text-decoration: none; /* Sin decoración de texto */
+  border: 2px solid rgb(var(--rosa-950)); /* Borde de 2px sólido en color rosa-950 */
+  color: rgb(var(--rosa-950)); /* Color de texto en rosa-950 */
+  transition: all 0.3s ease-in-out; /* Transición de 0.3s con aceleración y desaceleración */
+}
+
+.button:hover {
+  background-color: rgb(var(--rosa-950)); /* Color de fondo en rosa-950 */
+  color: #fff; /* Color de texto en blanco */
+}
+
+.input-field {
+  display: flex; /* Mostrar como flexbox */
+  flex-direction: column; /* Dirección de los elementos en columna */
+  margin-bottom: 1rem; /* Margen inferior de 1rem */
+}
+
+.submit-button {
+  margin-top: 1rem; /* Margen superior de 1rem */
+  padding: 0.5rem 1rem; /* Espaciado interno de 0.5rem en vertical y 1rem en horizontal */
+  border-radius: 0.25rem; /* Radio de borde de 0.25rem */
+  text-decoration: none; /* Sin decoración de texto */
+  border: 2px solid rgb(var(--rosa-950)); /* Borde de 2px sólido en color rosa-950 */
+  color: rgb(var(--rosa-950)); /* Color de texto en rosa-950 */
+  transition: all 0.3s ease-in-out; /* Transición de 0.3s con aceleración y desaceleración */
+}

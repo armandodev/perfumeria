@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Agregar comentario</title>
+
+    <!-- Estilos globales -->
+    <link rel="stylesheet" href="./css/global.css" />
+
+    <!-- Estilos del menú -->
+    <link rel="stylesheet" href="./css/estilos-menu.css" />
+
+    <!-- Estilos del pie de página -->
+    <link rel="stylesheet" href="./css/estilos-pie-pagina.css" />
+
+    <!-- Estilos específicos de la página de agregar comentario -->
+    <link rel="stylesheet" href="./css/estilos-agregar-comentario.css" />
+  </head>
+
+  <body>
+    <!-- Encabezado de la página -->
+    <header id="cabecera">
+      <div class="contenido">
+        <h1>Chick</h1>
+
+        <!-- Menú de navegación -->
+        <nav class="navegacion">
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="menu-link" href="./">Inicio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="dama.php">Dama</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="caballero.php">Caballero</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="comentarios.php">Comentarios</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main id="principal" class="contenido">
+      <!-- Formulario para agregar comentarios -->
+      <form
+        id="formulario"
+        action="agregar-comentario.php"
+        method="post"
+        class="formulario"
+      >
+        <h2 class="titulo">Agregar comentario</h2>
+
+        <!-- Etiqueta y campo de texto para el comentario -->
+        <label class="label" for="comentario">Comentario</label>
+        <textarea
+          class="input"
+          id="comentario"
+          name="comentario"
+          required
+        ></textarea>
+
+        <!-- Botón para enviar el formulario -->
+        <input class="btn" type="submit" value="Enviar" />
+      </form>
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="pie-pagina">
+      <p class="derechos">
+        <small>&copy; 2023 - Perfumería Chick</small>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+/* Estilos para el título del contenedor */
+.contenedor h2 {
+  text-align: center; /* Alineación del texto al centro */
+  margin-bottom: 1rem; /* Margen inferior de 1rem */
+}
+
+/* Estilos para el contenedor de los usuarios */
+.usuarios {
+  display: flex; /* Mostrar como flexbox */
+  flex-direction: column; /* Dirección de los elementos en columna */
+  align-items: center; /* Alinear elementos al centro horizontalmente */
+  width: 100%; /* Ancho del 100% */
+}
+
+/* Estilos para cada usuario */
+.usuario {
+  display: flex; /* Mostrar como flexbox */
+  flex-wrap: wrap; /* Envolver elementos en caso de que no quepan en una sola línea */
+  gap: 2rem; /* Espacio entre los elementos */
+  justify-content: space-between; /* Justificar elementos al espacio entre ellos */
+  align-items: center; /* Alinear elementos al centro verticalmente */
+  width: 100%; /* Ancho del 100% */
+  padding: 1rem; /* Espaciado interno de 1rem */
+  border-bottom: 1px solid #ccc; /* Borde inferior de 1px sólido en color #ccc */
+}
+
+/* Estilos para la información del usuario */
+.usuario-info {
+  display: flex; /* Mostrar como flexbox */
+  flex-wrap: wrap; /* Envolver elementos en caso de que no quepan en una sola línea */
+  align-items: center; /* Alinear elementos al centro verticalmente */
+  gap: 1rem; /* Espacio entre los elementos */
+}
+
+/* Estilos para el nombre del usuario */
+.usuario-nombre {
+  font-weight: bold; /* Fuente en negrita */
+}
+
+/* Estilos para el estado activo del usuario */
+.usuario-activo.true {
+  color: #080; /* Color verde (#080) */
+}
+
+/* Estilos para el estado inactivo del usuario */
+.usuario-activo.false {
+  color: #800; /* Color rojo oscuro (#800) */
+}
+
+/* Estilos para las acciones del usuario */
+.usuario-acciones {
+  display: flex; /* Mostrar como flexbox */
+  gap: 1rem; /* Espacio entre los elementos */
+}
+
+/* Estilos para el enlace de acción del usuario */
+a.usuario-accion {
+  padding: 0.5rem 1rem; /* Espaciado interno de 0.5rem en vertical y 1rem en horizontal */
+  border-radius: 0.25rem; /* Radio de borde de 0.25rem */
+  text-decoration: none; /* Sin decoración de texto */
+}
+
+/* Estilos para el contenedor de botones */
+.contenedor-btn {
+  display: flex; /* Mostrar como flexbox */
+  justify-content: center; /* Justificar elementos al centro horizontalmente */
+  margin-top: 1rem; /* Margen superior de 1rem */
+}
+
+/* Estilos para el botón */
+.button {
+  padding: 0.5rem 1rem; /* Espaciado interno de 0.5rem en vertical y 1rem en horizontal */
+  border-radius: 0.25rem; /* Radio de borde de 0.25rem */
+  text-decoration: none; /* Sin decoración de texto */
+  border: 2px solid rgb(var(--rosa-950)); /* Borde de 2px sólido en color rosa-950 */
+  color: rgb(var(--rosa-950)); /* Color de texto en rosa-950 */
+  transition: all 0.3s ease-in-out; /* Transición de 0.3s con aceleración y desaceleración */
+}
+
+/* Estilos para el botón al pasar el cursor por encima */
+.button:hover {
+  background-color: rgb(var(--rosa-950)); /* Color de fondo en rosa-950 */
+  color: #fff; /* Color de texto en blanco */
+}

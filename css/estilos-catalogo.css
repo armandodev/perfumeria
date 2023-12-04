@@ -1,0 +1,55 @@
+/* Estilos para el título */
+.titulo {
+  text-align: center; /* Centra el texto */
+  margin: 1rem 0; /* Margen superior e inferior de 1rem y margen izquierdo y derecho de 0 */
+}
+
+/* Estilos para el catálogo */
+.catalogo {
+  display: flex; /* Utiliza el modelo de caja flexible */
+  gap: 1rem; /* Espacio entre los elementos del catálogo */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  margin: 0 auto; /* Margen superior e inferior de 0 y margen izquierdo y derecho automático */
+  width: 100%; /* Ancho del catálogo al 100% */
+}
+
+/* Estilos para cada producto */
+.producto {
+  display: flex; /* Utiliza el modelo de caja flexible */
+  flex-direction: column; /* Coloca los elementos en una columna */
+  gap: 1rem; /* Espacio entre los elementos del producto */
+  justify-content: space-between; /* Distribuye el espacio verticalmente entre los elementos */
+  background: rgb(var(--rosa-300)); /* Color de fondo del producto */
+  padding: 0.5rem; /* Espacio interno del producto */
+  box-shadow: 3px 3px 10px rgb(var(--rosa-700) / 0.8); /* Sombra del producto */
+  width: 200px; /* Ancho del producto de 200px */
+}
+
+/* Estilos para la imagen del producto */
+.producto-imagen {
+  width: 100%; /* Ancho de la imagen del producto al 100% */
+  aspect-ratio: 1/1; /* Relación de aspecto de 1:1 */
+  background-position: center; /* Posición del fondo centrada */
+  background-size: cover; /* Tamaño del fondo ajustado para cubrir el contenedor */
+  background-repeat: no-repeat; /* No repetir el fondo */
+  border-radius: 0.5rem; /* Radio de borde del contenedor de la imagen */
+}
+
+/* Estilos para la información del producto */
+.producto-informacion {
+  display: flex; /* Utiliza el modelo de caja flexible */
+  flex-direction: column; /* Coloca los elementos en una columna */
+  gap: 0.5rem; /* Espacio entre los elementos de la información del producto */
+}
+
+/* Estilos para el nombre del producto */
+.producto-nombre {
+  font-weight: bold; /* Fuente en negrita */
+  text-align: center; /* Centra el texto */
+}
+
+/* Estilos para el precio del producto */
+.producto-precio {
+  text-align: center; /* Centra el texto */
+}

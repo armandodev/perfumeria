@@ -1,0 +1,12 @@
+#pie-pagina {
+  display: grid; /* Utilizado para establecer un diseño de cuadrícula en el elemento #pie-pagina */
+  place-items: center; /* Utilizado para centrar vertical y horizontalmente los elementos dentro de #pie-pagina */
+  background: rgb(
+    var(--rosa-300)
+  ); /* Utilizado para establecer un color de fondo utilizando una variable CSS */
+  height: 80px; /* Utilizado para establecer la altura del elemento #pie-pagina */
+}
+
+.derechos {
+  text-align: center; /* Utilizado para centrar el texto dentro del elemento con la clase .derechos */
+}

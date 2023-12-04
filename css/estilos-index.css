@@ -1,0 +1,49 @@
+#principal.contenido > section {
+  display: flex; /* Mostrar los elementos en línea */
+  gap: 2rem; /* Espacio entre los elementos */
+  flex-direction: column; /* Dirección de los elementos en columna */
+  justify-content: center; /* Centrar verticalmente los elementos */
+  align-items: center; /* Centrar horizontalmente los elementos */
+}
+
+#principal.contenido > section > article {
+  display: flex; /* Mostrar los elementos en línea */
+  flex-direction: column; /* Dirección de los elementos en columna */
+  gap: 10px; /* Espacio entre los elementos */
+  width: 100%; /* Ancho del elemento al 100% */
+}
+
+.subtitulo {
+  font-weight: 500; /* Grosor de la fuente */
+}
+
+.parrafo {
+  line-height: 1.5; /* Altura de línea del párrafo */
+  font-weight: 300; /* Grosor de la fuente */
+  opacity: 0.8; /* Opacidad del elemento */
+}
+
+.contenedor-btn {
+  display: flex; /* Mostrar los elementos en línea */
+  flex-wrap: wrap; /* Envolver los elementos en varias líneas */
+  justify-content: center; /* Centrar verticalmente los elementos */
+  align-items: center; /* Centrar horizontalmente los elementos */
+  gap: 1rem; /* Espacio entre los elementos */
+  margin-top: 2rem; /* Margen superior del contenedor */
+}
+
+.contenedor-btn a {
+  text-decoration: none; /* Sin decoración de texto */
+  color: rgb(var(--rosa-950)); /* Color del texto */
+  border: 2px solid rgb(var(--rosa-950)); /* Borde del elemento */
+  padding: 0.5rem 1rem; /* Espaciado interno del elemento */
+  border-radius: 0.5rem; /* Radio de borde del elemento */
+  transition: all 0.3s ease; /* Transición de propiedades */
+}
+
+.contenedor-btn a:hover {
+  background-color: rgb(
+    var(--rosa-950)
+  ); /* Color de fondo al pasar el cursor */
+  color: rgb(var(--rosa-50)); /* Color del texto al pasar el cursor */
+}

@@ -1,0 +1,47 @@
+/* Estilos para el elemento con id "cabecera" */
+#cabecera {
+  background: rgb(var(--rosa-300)); /* Fondo rosa */
+  line-height: 1.5; /* Espacio entre líneas */
+}
+
+/* Estilos para los elementos con clase "contenido" dentro de #cabecera */
+#cabecera .contenido {
+  display: flex; /* Mostrar como flexbox */
+  gap: 1rem; /* Espacio entre elementos */
+  flex-wrap: wrap; /* Envolver elementos en varias líneas */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+/* Estilos para los elementos con clase "menu" */
+.menu {
+  background: rgb(var(--rosa-300)); /* Fondo rosa */
+  list-style: none; /* Sin viñetas */
+  display: flex; /* Mostrar como flexbox */
+  flex-wrap: wrap; /* Envolver elementos en varias líneas */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+/* Estilos para los elementos con clase "menu-link" */
+.menu-link {
+  display: flex; /* Mostrar como flexbox */
+  color: inherit; /* Heredar color del texto */
+  text-decoration: none; /* Sin decoración de texto */
+  padding: 0.5rem 1rem; /* Espaciado interno */
+  transition: background 200ms ease-in-out; /* Transición suave del fondo */
+  -webkit-transition: background 200ms ease-in-out;
+  -moz-transition: background 200ms ease-in-out;
+  -ms-transition: background 200ms ease-in-out;
+  -o-transition: background 200ms ease-in-out;
+  border-radius: 0.5rem; /* Bordes redondeados */
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+/* Estilos para los elementos con clase "menu-link" al pasar el cursor por encima */
+.menu-link:hover {
+  background: rgb(var(--rosa-200)); /* Fondo rosa más claro */
+}
